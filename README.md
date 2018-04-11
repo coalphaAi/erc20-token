@@ -66,3 +66,25 @@ loadExtension('tabbycat', getExtensionsPath('tabbycat'))
 ```
 
 The first line is a simple comment for helping us find our way back if we ever get lost. The second line contains the extensionInfo.setState method; this registers our extension. The loadExtension method tells Brave where to locate the extension manifest.
+
+# Installed ready to deploy?
+
+Once you have installed metamask and running as an extension in chrome or brave go to:
+
+```bash
+https://ethereum.github.io/browser-solidity/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js
+```
+
+Here you have the solidity IDE ready to deploy your token.
+
+Click on create it.
+
+After go to your metamask and add it to your wallet by copying the token address metamask will automatically identify it.
+
+You can also find your contract using Etherscan.
+
+```bash
+https://ropsten.etherscan.io/address/0x245323eca95f1b418875b8708cdbc767fb230bde
+```
+
+Have fun!
